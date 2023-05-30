@@ -1,0 +1,52 @@
+body {
+    
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("https://media.istockphoto.com/id/1472749606/photo/as-the-sun-goes-down-on-the-lake.jpg?b=1&s=170667a&w=0&k=20&c=Ue0fdpwxR0CgkiPQWeMG0RcBiJ-eUQxMSD0NnoHhsbs=");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Times new roman', cursive;
+    color: rgb(195, 88, 183);
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+.converter {
+    margin: 50px auto;
+    width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="number"] {
+    width: 100px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+select {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 5px 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+p#result {
+    margin-top: 20px;
+}
